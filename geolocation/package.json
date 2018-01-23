@@ -1,0 +1,7 @@
+{
+  "name": "@angular/ng-extra/geolocation",
+  "typings": "../geolocation.d.ts",
+  "main": "../bundles/ng-extra-geolocation.umd.js",
+  "module": "../esm5/geolocation.es5.js",
+  "es2015": "../esm2015/geolocation.js"
+}
