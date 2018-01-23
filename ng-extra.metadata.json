@@ -11,5 +11,5 @@
     }
   ],
   "flatModuleIndexRedirect": true,
-  "importAs": "@angular/ng-extra"
+  "importAs": "@gnucoop/ng-extra"
 }

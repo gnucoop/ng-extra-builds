@@ -8,5 +8,5 @@
     }
   ],
   "flatModuleIndexRedirect": true,
-  "importAs": "@angular/ng-extra/geolocation"
+  "importAs": "@gnucoop/ng-extra/geolocation"
 }
