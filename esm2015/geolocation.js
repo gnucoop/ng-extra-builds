@@ -63,6 +63,7 @@ class Geolocation {
         return new Observable(subscriber => {
             if (!this.geolocationAvailable) {
                 subscriber.error();
+                return;
             }
             navigator.geolocation.getCurrentPosition(position => {
                 subscriber.next(position);

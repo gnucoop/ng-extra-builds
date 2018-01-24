@@ -76,6 +76,7 @@ var Geolocation = /** @class */ (function () {
         return new Observable(function (subscriber) {
             if (!_this.geolocationAvailable) {
                 subscriber.error();
+                return;
             }
             navigator.geolocation.getCurrentPosition(function (position) {
                 subscriber.next(position);
