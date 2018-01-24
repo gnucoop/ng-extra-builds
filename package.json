@@ -1,6 +1,6 @@
 {
   "name": "@gnucoop/ng-extra",
-  "version": "0.1.0-eb59d7c",
+  "version": "0.1.0-9575053",
   "description": "Ng-Extra",
   "main": "./bundles/ng-extra.umd.js",
   "module": "./esm5/ng-extra.es5.js",

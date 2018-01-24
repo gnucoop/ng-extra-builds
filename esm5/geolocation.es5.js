@@ -50,7 +50,8 @@ import { mergeMap } from 'rxjs/operators/mergeMap';
  */
 var Geolocation = /** @class */ (function () {
     function Geolocation() {
-        this.geolocationAvailable = navigator != null && navigator.geolocation != null;
+        this.geolocationAvailable = typeof navigator !== 'undefined' &&
+            typeof navigator.geolocation !== 'undefined';
     }
     /**
      * Gets a stream that emits when the current position is acquired via
