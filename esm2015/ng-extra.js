@@ -46,7 +46,7 @@ import { Geolocation, GeolocationModule } from '@gnucoop/ng-extra/geolocation';
 /**
  * Current version of Ng-Extra.
  */
-const VERSION = new Version('0.1.0-0b58b8a');
+const VERSION = new Version('0.1.0-629781c');
 
 /**
  * @fileoverview added by tsickle
