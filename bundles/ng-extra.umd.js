@@ -49,7 +49,7 @@
 /**
  * Current version of Ng-Extra.
  */
-var VERSION = new _angular_core.Version('0.1.0-c4e353a');
+var VERSION = new _angular_core.Version('0.1.0-3cbca8a');
 
 exports.VERSION = VERSION;
 exports.Geolocation = _gnucoop_ngExtra_geolocation.Geolocation;
